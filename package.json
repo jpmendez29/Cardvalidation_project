@@ -3,7 +3,16 @@
   "version": "0.1.0",
   "description": "proyecto card_validation diseño",
   "main": "B_index.js",
-  "private": true,
+  "scripts": {
+    "test": "node B_index.js",
+    "dev": "nodemon ./bakcend/B_index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmendez29/Cardvalidation_project.git"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
@@ -12,16 +21,6 @@
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20"
   },
-  "scripts": {
-    "dev": "nodemon ./bakcend/B_index.js"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jpmendez29/Cardvalidation_project.git"
-  },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jpmendez29/Cardvalidation_project/issues"
   },
