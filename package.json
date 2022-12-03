@@ -1,6 +1,8 @@
 {
   "name": "secure-tuition",
   "version": "0.1.0",
+  "description": "proyecto card_validation diseño",
+  "main": "B_index.js",
   "private": true,
   "dependencies": {
     "cors": "^2.8.5",
@@ -12,5 +14,16 @@
   },
   "scripts": {
     "dev": "nodemon ./bakcend/B_index.js"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmendez29/Cardvalidation_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpmendez29/Cardvalidation_project/issues"
+  },
+  "homepage": "https://github.com/jpmendez29/Cardvalidation_project#readme"
 }
